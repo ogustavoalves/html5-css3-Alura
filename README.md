@@ -6,4 +6,8 @@ Foi criada uma página de uma barbearia fictícia composta por: Cabeçalho, Bann
 
 (Parte 2) "HTML5 & CSS3 (parte 2): Posicionamento, listas e navegação"
 
+Criou-se a página de produtos (produtos.html) onde foi trabalhado conceitos como posicionamento de elementos e pseudo classes em CSS.
+
+(Parte 3) "HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas"
+
 ...
