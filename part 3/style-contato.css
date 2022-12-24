@@ -1,0 +1,130 @@
+:root {
+    --hover-color: #C78C19;
+    --active-color: #088C19;
+}
+
+/* @keyframes teste {
+    25% {background-color: red;}
+    50% {background-color: #088C19;}
+    75% {background-color: red;}
+    100% {background-color: #088C19;}
+} */
+
+    /* cabeçalho */
+
+header {
+    background-color: #bbb;
+    padding: 20px 0px;
+    /* animation: teste 3s infinite; */
+
+}
+
+.container  {
+    position: relative;
+    width: 940px;
+    margin: 0px auto;
+}
+
+.titulo-principal {
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: -20px;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0px 0px 0px 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--hover-color);
+    /* text-decoration: underline; */
+}
+
+nav a:active {
+    color: var(--active-color);
+}
+
+    /* corpo */
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0 ;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+    /* rodapé */
+
+footer {
+    text-align: center;
+    background-image: url(imgs/bg.jpg);
+    padding: 40px 0px;
+    
+}
+    
+.copyright {
+    font-size: 13px;
+    color: #FFF;
+    margin-top: 20px;
+}
+
+
+/* teste com seletores css 
+
+nome da tag
+p {
+    color: red;
+}
+
+2 nomes de tag
+form p {
+    color: blue;
+}
+
+classe
+.paragrafo {
+    color: green;
+}
+
+id
+#paragrapho {
+    color: cyan;
+} 
+
+classe + id
+.paragrafo#paragrapho {
+    color: yellow;
+} */
