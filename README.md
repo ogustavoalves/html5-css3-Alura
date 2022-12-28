@@ -10,6 +10,6 @@ Criou-se a página de produtos (produtos.html) onde foi trabalhado conceitos com
 
 (Parte 3) "HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas"
 
-(Parte 4) "HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas"
+(Parte 4) "HTML5 e CSS3 parte 3: avançando no CSS"
 
 ...
