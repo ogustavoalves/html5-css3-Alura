@@ -50,13 +50,10 @@ nav a:active {
     color: var(--active-color);
 }
     
-
-
-
     /* corpo */
 
-#banner {
-    width: 100%
+.banner {
+    width: 60%
 }
 
 .principal {
@@ -64,8 +61,21 @@ nav a:active {
     padding: 30px;
 }
 
-.titulo-centralizado {
+.titulo-principal {
     text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
 }
 
 p {
@@ -76,9 +86,9 @@ p {
     font-size: 20px; 
 }
  
-em strong {
+/* em strong {
     color: #f00;
-}
+} */
 
 .beneficios {
     background: #fff;
