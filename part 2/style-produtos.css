@@ -10,6 +10,12 @@ header {
     padding: 20px 0px;
 }
 
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+
 .container  {
     position: relative;
     width: 940px;

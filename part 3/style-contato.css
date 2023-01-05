@@ -19,6 +19,12 @@ header {
 
 }
 
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+
 .container  {
     position: relative;
     width: 940px;
@@ -96,12 +102,12 @@ form label, form legend {
     color: white;
     font-weight: bold;
     font-size: 18px;
+    transition: 0.5s all;
     cursor: pointer;
 }
 
 .enviar:hover {
     background: darkorange;
-    transition: 0.5s all;
     transform: scale(1.2);
 }
 
