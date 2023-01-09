@@ -2,6 +2,7 @@
     --hover-color: #C78C19;
     --active-color: #088C19;
 }
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -92,6 +93,7 @@ nav a:active {
     width: 120px;
     float: left;
     margin: 0 20px 20px 0;
+    border-radius: 0.4em;
 }
 
 .principal p {
@@ -133,6 +135,7 @@ p {
     background: #888;
     padding: 20px;
     padding: 3em 0;
+    /* box-shadow: inset 1 1 30px blue; */
 }
 
 /* ul {
@@ -171,6 +174,14 @@ p {
 
 .imagem-beneficios {
     width: 50%;
+    opacity: 1;
+    border-radius: 0.5em;
+    box-shadow: 10px 10px 10px #000;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.4;
+    transition: 400ms;
 }
 
 .video {
@@ -190,4 +201,21 @@ footer {
     font-size: 13px;
     color: #FFF;
     margin-top: 20px;
+}
+
+    /* Responsividade para celulares */
+
+@media screen and (max-width: 480px) {
+    .container, .principal, .mapa-conteudo, .conteudo-beneficios, .video {
+        width: auto;
+    }
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position: static;
+    }
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
 }
